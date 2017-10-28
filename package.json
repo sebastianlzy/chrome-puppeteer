@@ -1,0 +1,13 @@
+{
+  "name": "chrome-puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "git://github.com/GoogleChrome/puppeteer"
+  },
+  "scripts": {
+    "start": "env DEBUG=\"puppeteer:mouse,puppeteer:keyboard\" node ./index.js"
+  }
+
+}
